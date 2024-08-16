@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './CurrencyConverter.css'; // Импортируем CSS файл
+import './CurrencyConverter.css';
 
 const CurrencyConverter = () => {
   const [amount, setAmount] = useState('');
